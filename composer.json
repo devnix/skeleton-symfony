@@ -1,5 +1,5 @@
 {
-  "name": "devnix/skeleton-php",
+  "name": "devnix/skeleton-symfony",
   "description": "An opinionated Symfony project recommended to create bare bones applications",
   "license": "MIT",
   "type": "project",

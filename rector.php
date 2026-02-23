@@ -31,4 +31,7 @@ return RectorConfig::configure()
     ->withPHPStanConfigs([
         __DIR__ . '/phpstan.dist.neon',
     ])
+    ->withSkip([
+        \Rector\PHPUnit\CodeQuality\Rector\Class_\PreferPHPUnitThisCallRector::class,
+    ])
 ;
